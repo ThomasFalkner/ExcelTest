@@ -1,0 +1,14 @@
+﻿<Window x:Class="ExcelTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExcelTest"
+        mc:Ignorable="d"
+        Title="Excel Test" Height="159" Width="395">
+    <StackPanel Margin="0,0,0,0">
+        <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Margin="0,0,0,0"  TextWrapping="Wrap" Text="Hallo Excel" VerticalAlignment="Top" Width="320" Height="20"  />
+        <TextBox x:Name="textBoxCount" HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="320" Height="20" PreviewTextInput="NumberValidationTextBox" />
+        <Button x:Name="button" Content="Excel erzeugen" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center" Width="178" Click="btn1_Click"/>
+    </StackPanel>
+</Window>
